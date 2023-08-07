@@ -1,4 +1,4 @@
 .borda{
-    border-style: solid;
-    border-color: blueviolet;
+    border : 2px solid blueviolet;
+    border-radius: 5px;
 }
