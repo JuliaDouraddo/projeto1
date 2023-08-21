@@ -1,12 +1,12 @@
 
 .borda{
-    border: 2px solid black;
+    border: 2px solid beige;
 }
 
 .fundo{
     background-color:antiquewhite;
 }
 
-b{
-    border: 2px solid black;
+.b{
+    border: 2px solid beige;
 }
