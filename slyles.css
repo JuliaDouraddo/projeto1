@@ -1,4 +1,4 @@
-<style type="text"
+<style type="text/css"
 .borda {
     border: 2px solid red;
     border-radius: 5px;
@@ -7,3 +7,5 @@
 .planodefundo{
     background-color:antiquewhite;
 }
+
+<\style>
