@@ -1,10 +1,9 @@
 
 .borda{
     border: 2px solid red;
-    border-radius: 5px;
 }
 
-.planodefundo{
+.fundo{
     background-color:antiquewhite;
 }
 
