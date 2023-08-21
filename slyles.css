@@ -1,5 +1,6 @@
-.borda{
-    border: 5px solid red;
+.borda {
+    border: 2px solid red;
+    border-radius: 5px;
 }
 
 .planodefundo{
