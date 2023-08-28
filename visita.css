@@ -32,7 +32,7 @@
   .slide{
     width: 900px;
     height: 900x;
-    align: center;
+    text-align: center;
   }
   .slides-list{
     --selected-item: 0;
