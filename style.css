@@ -36,7 +36,7 @@
   }
   .slides-list{
     --selected-item: 0;
-    --total-items: 10;
+    --total-items: 9;
     list-style-type: none;
     margin: 5px 0;
      margin-left: 5px;
