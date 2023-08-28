@@ -30,13 +30,13 @@
     overflow: hidden;
   }
   .slide{
-    width: 800px;
-    height: 800x;
+    width: 900px;
+    height: 900x;
     text-align: center;
   }
   .slides-list{
     --selected-item: 0;
-    --total-items: 9;
+    --total-items: 10;
     list-style-type: none;
     margin: 5px 0;
      margin-left: 5px;
