@@ -28,8 +28,6 @@
   
   .slide-show{
     overflow: hidden;
-    display:flex;
-    justify-content: center;
     align-item: center;
   }
   .slide{
