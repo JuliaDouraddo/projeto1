@@ -28,6 +28,9 @@
   
   .slide-show{
     overflow: hidden;
+    display:flex;
+    justify-content: center;
+    align-item: center;
   }
   .slide{
     width: 900px;
