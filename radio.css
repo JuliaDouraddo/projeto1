@@ -1,1 +1,98 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
 
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    animation: neonGlow 2s linear infinite alternate;
+}
+
+@keyframes neonGlow {
+    0% {
+        filter: brightness(1.5) drop-shadow(0 0 10px rgb(3, 29, 29));
+    }
+    100% {
+        filter: brightness(1) drop-shadow(0 0 5px rgb(71, 3, 54));
+    }
+}
+
+.player-container {
+    margin: 50px auto;
+    max-width: 400px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(185, 30, 165, 0.5);
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+}
+
+.audio-info {
+    color: rgb(173, 15, 221);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+audio {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: white;
+    color: rgb(24, 1, 20);
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    background-color:  rgb(116, 47, 110);
+    box-shadow: 0px 0px 10px  rgb(116, 47, 110);
+    color: white;
+}
+
+#play-pause-button {
+    background-color: white;
+    color: black;
+}
+
+#play-pause-button:hover {
+    background-color:  rgb(116, 47, 110);
+}
+
+.neon-glow {
+    text-shadow: 0 0 10px rgb(116, 47, 110), 0 0 20px rgb(116, 47, 110), 0 0 30px rgb(116, 47, 110), 0 0 40px rgb(116, 47, 110), 0 0 50px rgb(116, 47, 110), 0 0 60px rgb(116, 47, 110), 0 0 70px rgb(116, 47, 110);
+}
