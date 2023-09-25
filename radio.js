@@ -5,7 +5,7 @@ const nextButton = document.getElementById('next-button');
 
 const songs = [
     'musicas/musica1.mp3',
-    'musicas/muscia2.mp3',
+    'musicas/musica2.mp3',
     'musicas/musica3.mp3',
     'musicas/musica4.mp3',
     'musicas/musica5.mp3',
