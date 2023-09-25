@@ -28,8 +28,8 @@ body {
 }
 
 .player-container {
-    margin: 50px auto;
-    max-width: 400px;
+    margin: 90px auto;
+    max-width: 900px;
     background-color: rgba(0, 0, 0, 0.8);
     padding: 20px;
     border-radius: 10px;
