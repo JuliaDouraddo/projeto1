@@ -4,16 +4,16 @@ const prevButton = document.getElementById('prev-button');
 const nextButton = document.getElementById('next-button');
 
 const songs = [
-    'radiomp3/musica1.mp3',
-    'radiomp3/muscia2.mp3',
-    'radiomp3/musica3.mp3',
-    'radiomp3/musica4.mp3',
-    'radiomp3/musica5.mp3',
-    'radiomp3/musica6.mp3',
-    'radiomp3/musica7.mp3',
-    'radiomp3/musica8.mp3',
-    'radiomp3/musica9.mp3',
-    'radiomp3/musica10.mp3',
+    'musicas/musica1.mp3',
+    'musicas/muscia2.mp3',
+    'musicas/musica3.mp3',
+    'musicas/musica4.mp3',
+    'musicas/musica5.mp3',
+    'musicas/musica6.mp3',
+    'musicas/musica7.mp3',
+    'musicas/musica8.mp3',
+    'musicas/musica9.mp3',
+    'musicas/musica10.mp3',
 ];
 
 let currentSongIndex = 0;
