@@ -13,7 +13,7 @@ const songs = [
     'musicas/musica7.mp3',
     'musicas/musica8.mp3',
     'musicas/musica9.mp3',
-    'musicas/musica10.mp3',
+    'musicas/musica10.mp3'
 ];
 
 let currentSongIndex = 0;
